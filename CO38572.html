@@ -1,0 +1,810 @@
+<html>
+
+
+
+<head>
+	<title>CO</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+	<link rel="stylesheet" type="text/css" href="../../menus/menus.css">
+	<meta name="Microsoft Border" content="t">
+</head>
+
+<!--  **IMPORTANT**
+	This file must remain in this directory.
+	When including the header, make sure the relative path leads here.  -->
+<!-- ********************************************************************** -->
+<!--                            MAINTENANCE LOG                             -->
+<!-- ********************************************************************** -->
+<!-- Date        Programmer         Description                             -->
+<!-- ----------  -----------------  --------------------------------------- -->
+<!-- 11/09/2005  Anne Curtin        added search menu                       -->
+<!-- 04/24/2008  Rick Hardy         First round of Georgia modifications.   -->
+<!--                                                                        -->
+<!-- *********************************************************************  -->
+
+<style>
+    td.AlnRight {
+        text-align: right;
+        text-wrap: none;
+        width: 1000px;
+    }
+</style>
+<body topmargin="0"><!--msnavigation-->
+
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+  <tr>
+    <td rowspan="2" nowrap width="10%"><i><b>
+       <font size="5" face="Verdana">
+          <IMG src=/Georgia/images/sub_banner01.jpg> Georgia  
+       </font></b></i></td>
+    <td valign="top" align="right" width="30%">
+       <img border="0" src="/Georgia/images/curve.gif" width="18" height="20"></td>
+    <td bgcolor="#000000" nowrap>
+       <p align="right"><font size="1" face="Arial"><a style="color: #FFFFFF">&nbsp;</a></font><font size="1" face="Arial">
+       <a href="/Georgia/Default.asp" style="color: #FFFFFF"><font size="1">
+       <img border="0" src="/Georgia/images/ico_home.gif" width="14" height="14">
+       Home</font></a><font face="Arial" size="1" color="#FFFFFF">&nbsp; 
+       | <a style="color: #FFFFFF" href="/Georgia/Business Design">Business Processes</a> 
+       | <a style="color: #FFFFFF" href="/Georgia/Subsystem">Tech Design</a>
+       | <a style="color: #FFFFFF" href="/Georgia/Conversion">Conversion</a>
+       | <a style="color: #FFFFFF" href="/Georgia/Testing">Testing</a>
+       | <a style="color: #FFFFFF" href="/Georgia/ProjectPlan" style="color: #FFFFFF">PMO</a>         
+       | <a style="color: #FFFFFF" href="/Georgia/Certification">Certification</a>
+       | <a style="color: #FFFFFF" href="/Georgia/Administrative">Admin</a>
+       | <a style="color: #FFFFFF" href="/Georgia/help">Help</a>&nbsp;</font></p>
+    </td>
+  </tr>
+  <tr>
+    <td></td> 
+    <td><p align="right"><font size="5" face="Verdana"><b> iTRACE </b></font></p></td>
+ </tr>
+  <tr>
+    <td colspan="3"><SCRIPT LANGUAGE="JScript" SRC="/Georgia/menus/menus.js"></SCRIPT>
+
+<DIV ID="divMenuBar" ONMOUSEOVER="MenuBar_over();" ONMOUSEOUT="MenuBar_out();" ONSELECTSTART="return false;">
+   <TABLE ID="tblMenuBar" BORDER="0">
+      <TR>
+         <TD CLASS="clsMenuBarItem" ID="tdMenuBarItemDeveloper" nowrap>
+            <a href="/Georgia/help/Developer/">Developer</a>
+         </TD>
+         <TD>|</TD>
+         <TD CLASS="clsMenuBarItem" ID="tdMenuBarItemAnalyst" nowrap>
+             <A HREF="/Georgia/help/Analyst%20Processes/">Analyst</A>
+         </TD>
+      <!-- 
+         <TD>|</TD>
+         <TD CLASS="clsMenuBarItem" ID="tdMenuBarItemTrainer" nowrap>
+            <A HREF="help/Trainer/">Trainer</A>
+         </TD>
+      -->
+         <TD>|</TD>
+         <TD CLASS="clsMenuBarItem" ID="tdMenuBarItemPC" nowrap>
+            <A HREF="/Georgia/Configuration%20Management/Configuration%20Management.htm">Platform Mgmt</A></TD>
+         <TD>|</TD>
+         <TD CLASS="clsMenuBarItem" ID="tdMenuBarItemDoco" nowrap>
+            <A HREF="/Georgia/administrative/RFP/RFP Documentation">Documentation</A>
+         </TD>
+         <TD>|</TD>
+         <TD CLASS="clsMenuBarItem" ID="tdMenuBarItemCycle" nowrap>
+            <A HREF="/Georgia/subsystem/cycle">Cycle</A></TD>
+         <TD>|</TD>
+         <TD CLASS="clsMenuBarItem" ID="tdMenuBarItemQuery" nowrap>
+            <A HREF="/Georgia/Subsystem/Query5.asp">Query</A>
+         </TD>
+         <TD>|</TD>
+         <TD CLASS="clsMenuBarItem" ID="tdMenuBarItemSearch" nowrap>
+             <A HREF="/Georgia/Search/Search_2012.asp">Search</A>
+         </TD>
+         <TD>|</TD>
+         <TD CLASS="clsMenuBarItem"  nowrap>
+            <A HREF="/Georgia/zIP/utils/PortalDefault.asp">Interactive Portal</A>
+         </TD>
+      
+         <td class="AlnRight">
+            <font size="1" color="#FFE4B5"><font face="Arial">Gainwell Technologies Proprietary</font></font>
+         </td>
+      </TR>
+   </TABLE>
+</DIV>
+
+<DIV CLASS="clsMenu" ONMOUSEOUT="Menu_out();" ID="divMenuDeveloper">
+   <DIV CLASS="clsMenuSpacer"></DIV>
+   <DIV>
+      <A HREF="/Georgia/help/Developer/" title="An overview of how to get started on the work pattern, how to find your way around this site, how to use the development server, and other fun topics">
+         Getting Started</A>
+   </DIV>
+   <DIV>
+      <A HREF="/Georgia/help/Developer Processes" title="Processes">Processes</A>
+   </DIV>
+   <DIV>
+      <A HREF="/Georgia/help/Work%20Patterns/Change%20Order%20Default.htm" title="A description of the change order and how it is used to document requested system changes">
+         Change Orders</A>
+   </DIV>
+   <DIV>
+      <a title="A list of people that you should contact when you are stuck" href="/Georgia/Administrative/Contact Info/contact_info.asp">Contacts</a>
+   </DIV>
+   <DIV>
+      <a HREF="/Georgia/help/MoreHelp.htm" title="A list of people that you should contact when you are stuck">
+         Where to get help</a>
+   </DIV>
+</DIV>
+
+<DIV CLASS="clsMenu" ONMOUSEOUT="Menu_out();" ID="divMenuAnalyst">
+   <DIV CLASS="clsMenuSpacer"></DIV>
+   <DIV>
+      <A HREF="/Georgia/help/Analyst Processes" title="A description of how to identify and document a new or existing business process">
+         Processes</A>
+   </DIV>
+   <DIV>
+      <A HREF="/Georgia/help/Work%20Patterns/Change%20Order%20Default.htm" title="A description of the change order and how it is used to document requested system changes">
+         Change Orders</A>
+   </DIV>
+</DIV>
+
+<DIV CLASS="clsMenu" ONMOUSEOUT="Menu_out();" ID="divMenuTrainer">
+   <DIV CLASS="clsMenuSpacer"></DIV>
+   <DIV>
+      <A HREF="/Georgia/help/Trainer/Core Batch.htm" title="Core Training on the Batch Component">
+         Core Batch</A>
+   </DIV>
+   <DIV>
+      <A HREF="/Georgia/help/Trainer/Core UI.htm" title="Core Training on the UI Component">
+         Core UI</A>
+   </DIV>
+</DIV>
+
+<DIV CLASS="clsMenu" ONMOUSEOUT="Menu_out();" ID="divMenuPC">
+   <DIV CLASS="clsMenuSpacer"></DIV>
+   <DIV nowrap>
+      <DIV><A HREF="/Georgia/help/PC/PC Configuration.htm" title="An overview of your PC's configuration along with basic troubleshooting tips">Workstation Configuration</a> 
+      </DIV>
+      <DIV><A HREF="/Georgia/Administrative/Security_Requests_now_done_via_MEUPS.asp" title="All Security Requests now submitted in MEUPS">Security Request</a> 
+      </DIV>
+<!--  <DIV><A HREF="/Georgia/Administrative/Security Request Procedures.htm" title="An overview of your PC's configuration along with basic troubleshooting tips">Security Request</a> 
+      </DIV>
+      <DIV><A HREF="/Georgia/help/PC/Oracle10g%20Configuration.mht" title="How to setup and configure your PC to access the Oracle 10g Database">Oracle 10g Install</A>
+      </DIV>
+      <DIV><A HREF="/Georgia/help/PC/SQL%20Developer%20Install.htm" title="How to setup and configure your PC to use Oracle SQL Developer">SQL Developer Install</A>
+      </DIV>
+      <DIV><A HREF="/Georgia/help/PC/ERWin Installation.htm" title="ERWin setup and configuration">ERWin configuration</A>
+      </DIV>
+      <DIV><A HREF="/Georgia/help/PC/LAN Configuration.htm" title="How to configure your PC to access documentation stored on the LAN and Web server">LAN Access</A>
+      </DIV>
+      <DIV><a HREF="/Georgia/help/PC/Exceed%20Configuration.htm" title="How to configure your PC to access documentation stored on the LAN and Web server">VNC Setup</a>
+      </DIV>
+      <DIV><A HREF="/Georgia/help/PC/Sys Admin Support.htm" title="Who to call when you need support for PC configuration issues">Sys Admin Support</A>
+      </DIV>
+      <DIV><A HREF="/Georgia/help/PC/Instructions for Setting Up NetMeeting.htm" title="How to configure Net Meeting on your PC">NetMeeting Setup</A>
+      </DIV>
+      <DIV><A HREF="/Georgia/help/Training/Development%20Processes/Letter%20System%20Set-Up.htm" title="How to configure your PC for the letter generator">Letter Generator Setup</A>
+      </DIV>
+ -->
+   </DIV>
+</DIV>
+
+<DIV CLASS="clsMenu" ONMOUSEOUT="Menu_out();" ID="divMenuDoco">
+   <DIV CLASS="clsMenuSpacer"></DIV>
+   <DIV nowrap>
+      <A HREF="/Georgia/administrative/RFP/RFP Documentation/" title="RFP Documentation">
+         RFP Documentation</A>
+   </DIV>
+   <DIV nowrap>
+      <A HREF="/Georgia/administrative/Proposal/Proposal Documentation/" title="Proposal">
+         Proposal</A>
+   </DIV>
+   <DIV nowrap>
+      <A HREF="/Georgia/administrative/RFP/Bidders_Lib/" title="Bidders Library">
+         Bidders Library</A>
+   </DIV>
+   <DIV nowrap>
+      <A HREF="/Georgia/DCH_Business_Process/" title="DCH Business Process">
+         DCH Business Process</A>
+   </DIV>
+   <DIV nowrap>
+      <A HREF="/Georgia/Administrative/DCH Business Leads crosswalk to requirements" title="DCH Business Lead Crosswalk">
+         DCH Business Lead Crosswalk</A>
+   </DIV>
+   <DIV nowrap>
+      <A HREF="/Georgia/Administrative/DCH General Requirements RFP 5.2 Owners" title="DCH General Requirements RFP 5.2 Owners">
+         DCH General Requirements RFP 5.2 Owners</A>
+   </DIV>
+   <DIV nowrap>
+      <A HREF="/Georgia/Administrative/RFP/ACS_SYS_DOC/" title="ACS Sys Doc">
+         ACS Sys Doc</A>
+   </DIV>
+   <DIV nowrap>
+      <A HREF="/Georgia/Administrative/RFP/SourceCode/" title="ACS Source Code">
+         ACS Source Code</A>
+   </DIV>
+   <DIV nowrap>
+      <A HREF="/Georgia/Documentation/Publications/Newsletters_Bulletins/Electronic Project Directory/" title="Electronic Project Directory">
+         Electronic Project Directory</A>
+   </DIV>
+   <DIV nowrap>
+      <A HREF="/Georgia/subsystem/Utils/FolderHeirarchyList.asp?ShowSub=Yes&Folder=..\..\Training" title="Georgia Training Page">
+         Georgia Training Page</A>
+   </DIV>
+<!--
+   <DIV nowrap>
+      <A HREF="/Georgia/Subsystem/Utils/CodeTableManualContents.asp" title="Code Table Manual in Alpha sequence">
+         Code Table Manual by Table Name</A>
+   </DIV>
+   <DIV nowrap>
+      <A HREF="/Georgia/Subsystem/Utils/CodeTableManualContentsbysystem.asp" title="Code Table Manual in Subsystem sequence">
+         Code Table Manual by Subsystem</A>
+   </DIV>
+ -->
+</DIV>
+
+
+<DIV CLASS="clsMenu" ONMOUSEOUT="Menu_out();" ID="divMenuSearch">
+   <DIV CLASS="clsMenuSpacer"></DIV>
+   <DIV nowrap>
+       <A HREF="/Georgia/Search/Search_2012.asp" title="Document Search">Document Search </A>
+   </DIV>
+   <DIV nowrap>
+      <A HREF="/Georgia/Search/SearchAdvanced.asp" title="System Objects Search">System Objects Search </A>
+   </DIV>
+</DIV>
+
+    </td>
+  </tr>
+</table>
+
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+ <tr><!--msnavigation-->
+ <td valign="top">
+
+<body>
+<br>
+
+<form METHOD="GET" ACTION="RequestDoco.asp">
+	<table>
+		<tr>
+			<td nowrap width="30%">
+				<input type="Submit"> &nbsp;<b>CO / Defect #:</b> &nbsp;
+				<input type="TEXT" name="ID" value="38572" size="20"></td>
+
+			<td width="70%"> &nbsp;&nbsp;
+				<a href="../../zIP/zDOT/utils_CO/dotCoManageInfo.asp?CoSak=38572">
+					Edit CO/Defect</a></td>
+		</tr>
+	</table>
+</form>
+
+<table border="0" cellspacing="0" cellpadding="3" width="100%" bgcolor="#FFFFDD">
+
+<tr valign='top' bgcolor='#C0C0C0' style='font-size:18pt; font-weight:bold;' height='30'><td colspan='8'>CSR 1621 - SUR - Outpatient Case Types - 2022 HCPCS updates&nbsp; - &nbsp;38572</td></tr><tr valign='top' style='text-decoration:underline; font-weight:bold;'><td>ID</td><td>Type</td><td>Sub-Type</td><td>Functional Area</td><td>Order</td><td>Priority</td><td>Established Priority Date</td><td>Current Status</td></tr><tr valign='top'><td>38572</td><td><a href='CO_Type.asp' target='_blank'>CO</a></td><td> - </td><td>SUR</td><td></td><td></td><td></td><td>Construction in Progress</td></tr> <tr><td colspan='8'>&nbsp;</td></tr><tr valign='top' style='text-decoration:underline; font-weight:bold;'><td>Operations</td><td>Est. Const Hrs</td><td>CO Owner</td><td>Assigned SE</td><td colspan='2'>Mass Adj</td><td>Env</td><td>CSR Purpose</td></tr><tr valign='top'><td>N</td><td>20</td><td>Li, Lisa</td><td>Tran, Linh</td><td colspan='2'></td><td>Unassigned</td><td>Modification</td><tr><td colspan='8'>&nbsp;</td></tr><tr valign='top' style='text-decoration:underline; font-weight:bold;'><td>Project</td><td>Grouping</td><td>Sub Grouping</td><td>Billable</td><td colspan='2'>AI #</td><td>inter<i>C</i>hange Version</td><td>Work Request</td></tr><tr valign='top'><td>Modernization 1</td><td>Batch</td><td></td><td>N</td><td colspan='2'></td><td></td><td></td></tr>
+
+</table>
+<p><br></p>
+
+
+<h2>Desired Solution <a href='../../AuditHistory/CommonAudits.asp?ID=38572&NAME=Desired Solution' target='_blank'><img src='../../images/ico_history.gif' border='0' alt='View audit history'></a></h2>For the 2022 CMS HCPCS Annual Update, DCH may submit procedures they want DXC to "mirror" or "mimic". This impact SURProfiler Case Type's definition. This change order is to add new procedure codes or diagnosis codes to the impacted SURProfiler Outpatient Case Types.
+<p><br></p>
+
+
+<h2>Business Impact
+	<a href="../../AuditHistory/CommonAudits.asp?ID=38572&NAME=Business Impact" target="_blank">
+		<img src="../../images/ico_history.gif" border="0" alt="View audit history"></a></h2>
+SURProfiler Outpatient Case Types will be updated accordingly based on CMS HCPCS Annual updates.
+<p><br></p>
+
+
+<h2>Technical Specifications
+	<a href="../../AuditHistory/CommonAudits.asp?ID=38572&NAME=Technical Specifications" target="_blank">
+		<img src="../../images/ico_history.gif" border="0" alt="View audit history"></a></h2>
+Add new procedure codes or diagnosis codes to the impacted SURProfiler Outpatient Case Type codes. Attached please find the spreadsheet "2022 HCPCS SUR Impacts.xls" for the detail information.
+<p><br></p>
+
+
+<h2>Ad Hoc/Reporting Repository Specifications
+	<a href="../../AuditHistory/CommonAudits.asp?ID=38572&NAME=Ad Hoc/Reporting Repository Specifications" target="_blank">
+		<img src="../../images/ico_history.gif" border="0" alt="View audit history"></a></h2>
+
+<p><br></p>
+
+
+<h2>Assignments
+	<a href="../../AuditHistory/AssignmentsAudits.asp?ID=38572&NAME=Assignments" target="_blank">
+		<img src="../../images/ico_history.gif" border="0" alt="View audit history"></a></h2>
+<table border="1" cellspacing="0" cellpadding="3" width="50%">
+    <tr bgcolor="#C0C0C0">
+		<td><b>Role</b></td>
+		<td nowrap><b>Responsible Person</b></td>
+    </tr>
+
+<tr><td>Gainwell  - Tester</td><td>Johnson, Uguanda&nbsp;</td></tr><tr><td>Gainwell  - Tester</td><td>Merseal, Arlene&nbsp;</td></tr><tr><td>Gainwell - Tech Lead</td><td>Li, Lisa&nbsp;</td></tr><tr><td>SE</td><td>Tran, Linh&nbsp;</td></tr>
+
+</table>
+<p><br></p>
+
+
+<h2>Associated Releases
+	<a href="../../AuditHistory/ReleaseAudits.asp?ID=38572&NAME=Associated Releases" target="_blank">
+		<img src="../../images/ico_history.gif" border="0" alt="View audit history"></a></h2>
+<table border="1" cellspacing="0" cellpadding="3" width="50%">
+    <tr bgcolor="#C0C0C0">
+		<td nowrap><b>Release Date</b></td>
+		<td><b>Environment</b></td>
+		<td nowrap><b>Release Number</b></td>
+    </tr>
+
+<tr><td colspan='3'>No records returned.</td></tr>
+
+</table>
+<p><br></p>
+
+
+<h2>Associated Policies
+	<a href="../../AuditHistory/CommonAudits.asp?ID=38572&NAME=Associated Policies" target="_blank">
+		<img src="../../images/ico_history.gif" border="0" alt="View audit history"></a></h2>
+<table border="1" cellspacing="0" cellpadding="3" width="100%">
+    <tr bgcolor="#C0C0C0">
+		<td nowrap><b>Policy ID</b></td>
+		<td nowrap><b>Policy Description</b></td>
+    </tr>
+
+<tr><td colspan='2'>No records returned.</td></tr>
+
+</table>
+<p><br></p>
+
+
+
+	<h2>Associated Requirements
+	<a href="../../AuditHistory/CommonAudits.asp?ID=38572&NAME=Associated Requirements" target="_blank">
+		<img src="../../images/ico_history.gif" border="0" alt="View audit history"></a></h2>
+	<table border="1" cellspacing="0" cellpadding="3" width="100%">
+		<tr bgcolor="#C0C0C0">
+			<td nowrap><b>Requirement ID</b></td>
+			<td><b>Type</b></td>
+			<td><b>Use Cases</b></td>
+		</tr>
+
+	<tr><td colspan='3'>No records returned.</td></tr>
+
+	</table>
+	<p><br></p>
+
+
+
+<h2>Associated System Objects
+	<a href="../../AuditHistory/CommonAudits.asp?ID=38572&NAME=Associated System Objects" target="_blank">
+		<img src="../../images/ico_history.gif" border="0" alt="View audit history"></a></h2>
+
+    &nbsp;** System Object(s) required for this CO Change Order = "Yes"
+
+<table border="1" cellspacing="0" cellpadding="3" width="100%">
+    <tr bgcolor="#C0C0C0">
+		<td nowrap><b>Technical Name</b></td>
+		<td nowrap><b>Object Type</b></td>
+		<td nowrap><b>Production Version</b></td>
+		<td><b>Status</b></td>
+		<td><b>Title</b></td>
+    </tr>
+
+<tr><td colspan=5>No records returned.</td></tr>
+
+</table>
+<p><br></p>
+
+
+<h2>CO Status
+	<a href="../../AuditHistory/StatusAudits.asp?ID=38572&NAME=Status" target="_blank">
+		<img src="../../images/ico_history.gif" border="0" alt="View audit history"></a></h2>
+<table border="1" cellspacing="0" cellpadding="3" width="50%">
+    <tr bgcolor="#C0C0C0">
+		<td><b>Date</b></td>
+		<td><b>Status</b></td>
+		<td nowrap><b>Responsible Person</b></td>
+    </tr>
+
+<tr><td>07/01/2021</td><td>CO Identified</td><td>Li, Lisa&nbsp;</td></tr><tr><td>03/01/2022</td><td>Analyze In Progress</td><td>Tran, Linh&nbsp;</td></tr><tr><td>03/01/2022</td><td>Ready for Tech Dsgn Wthru</td><td>Tran, Linh&nbsp;</td></tr><tr><td>03/02/2022</td><td>Construction in Progress</td><td>Tran, Linh&nbsp;</td></tr>
+
+</table>
+<p><br></p>
+
+
+<h2>Estimate/Actual Hours By Role    
+	<a href="../../AuditHistory/MultiColumnAudits.asp?ID=38572&NAME=Hours By Role" target="_blank">
+		<img src="../../images/ico_history.gif" border="0" alt="View audit history"></a></h2>
+<table border="1" cellspacing="0" cellpadding="3" width="100%">
+    <tr bgcolor="#C0C0C0">
+        <td rowspan="2"><b>Role</b></td>
+        <td colspan="5" align="center"><b>ESTIMATES</b></td>
+        <td colspan="2" align="center"><b>ACTUALS</b></td>
+	<td rowspan="2" nowrap><b>Last Update</b></td>
+    </tr>
+
+    <tr bgcolor="#DDDDDD">
+        <td nowrap><b>CO Hours</b></td>
+        <td nowrap><b>SIT Hours</b></td>
+        <td nowrap><b>Suggested Begin</b></td>
+        <td nowrap><b>Estimated MO</b></td>
+        <td nowrap><b>Waiting for UAT Migration</b></td>
+        <td nowrap><b>CO Hours</b></td>
+        <td nowrap><b>SIT Hours</b></td>
+    </tr>
+
+<tr><td nowrap>SE</td><td align="right">20</td><td align="right">12</td><td nowrap>&nbsp;</td><td nowrap>&nbsp;</td><td nowrap>&nbsp;</td><td align="right">0</td><td align="right">0</td><td nowrap>07/01/2021</td></tr><tr><td bgcolor='#C0C0C0'><b>TOTAL</b></td><td align="right"><b>20</b></td><td align="right"><b>12</b></td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td align="right"><b>0</b></td><td align="right"><b>0</b></td><td>&nbsp;</td></tr>
+
+</table>
+<p><br></p>
+
+
+<h2>Predecessor/Successor</h2>
+<table border="0" cellspacing="0" cellpadding="0" width="100%">
+	<tr height="30" valign="middle">
+		<td width="15" nowrap>&nbsp;</td>
+		<td width="100%"><h3>Predecessor COs / Defects</h3></td>
+	</tr>
+
+	<tr>
+		<td width="15" nowrap>&nbsp;</td>
+		<td width="100%">
+			<table border="1" cellspacing="0" cellpadding="3" width="100%">
+				<tr bgcolor="#C0C0C0">
+					<td><b>CO / Defects</b></td>
+					<td><b>Description</b></td>
+					<td><b>Functional Area</b></td>
+					<td><b>Status</b></td>
+					<td><b>Product Version</b></td>
+					<td><b>Release Date</b></td>
+					<td><b>Environment</b></td>
+				</tr>
+
+			<tr><td colspan='7'>No records returned.</td></tr>
+
+			</table>
+		</td>
+	</tr>
+</table>
+<p></p>
+	
+<table border="0" cellspacing="0" cellpadding="0" width="100%">
+	<tr height="30" valign="middle">
+		<td width="15" nowrap>&nbsp;</td>
+		<td width="100%"><h3>Successor COs / Defects</h3></td>
+	</tr>
+
+	<tr>
+		<td width="15" nowrap>&nbsp;</td>
+		<td width="100%">
+			<table border="1" cellspacing="0" cellpadding="3" width="100%">
+				<tr bgcolor="#C0C0C0">
+					<td><b>CO / Defects</b></td>
+					<td><b>Description</b></td>
+					<td><b>Functional Area</b></td>
+					<td><b>Status</b></td>
+					<td><b>Product Version</b></td>
+					<td><b>Release Date</b></td>
+					<td><b>Environment</b></td>
+				</tr>
+
+			<tr><td colspan='7'>No records returned.</td></tr>
+
+			</table>
+		</td>
+	</tr>
+</table>
+<p></p>
+	
+<table border="0" cellspacing="0" cellpadding="0" width="100%">
+	<tr height="30" valign="middle">
+		<td width="15" nowrap>&nbsp;</td>
+		<td width="100%"><h3>Co-release COs / Defects</h3></td>
+	</tr>
+
+	<tr>
+		<td width="15" nowrap>&nbsp;</td>
+		<td width="100%">
+			<table border="1" cellspacing="0" cellpadding="3" width="100%">
+				<tr bgcolor="#C0C0C0">
+					<td><b>CO / Defects</b></td>
+					<td><b>Description</b></td>
+					<td><b>Functional Area</b></td>
+					<td><b>Status</b></td>
+					<td><b>Product Version</b></td>
+					<td><b>Release Date</b></td>
+					<td><b>Environment</b></td>
+				</tr>
+
+			<tr><td colspan='7'>No records returned.</td></tr>
+
+			</table>
+		</td>
+	</tr>
+</table>
+<p><br></p>
+
+
+<h2>CO Clarifications 
+	<a href="../../AuditHistory/CommonAudits.asp?ID=38572&NAME=CO Clarifications" target="_blank">
+		<img src="../../images/ico_history.gif" border="0" alt="View audit history"></a></h2>
+<table border="1" cellspacing="0" cellpadding="3" width="100%">
+    <tr bgcolor="#C0C0C0">
+		<td><b>Date</b></td>
+		<td><b>Description</b></td>
+    </tr>
+
+<tr valign='top'><td>02/28/2022</td><td width='100%'>[LL] DCH's Harshala approved this change order via email. The approval email is attached to this change order.&nbsp;</td></tr>
+
+</table>
+<p><br></p>
+
+
+<h2>CO Associated CSR
+	<a href="../../AuditHistory/CommonAudits.asp?ID=38572&NAME=Associated CSR" target="_blank">
+		<img src="../../images/ico_history.gif" border="0" alt="View audit history"></a></h2>
+<table border="1" cellspacing="0" cellpadding="3" width="100%">
+    <tr bgcolor="#C0C0C0">
+		<td nowrap><b>CSR ID</b></td>
+		<td><b>CSR Name</b></td>
+    </tr>
+
+<tr valign='top'><td><a href='CSRDoco.asp?RequestID=1621'>1621</a></td><td width='100%'>2022 Reference Updates (Ongoing)&nbsp;</td></tr>
+
+</table>
+<p><br></p>
+
+<h2>CO Associated Work Requests</h2>
+<table border="1" cellspacing="0" cellpadding="3" width="100%">
+    <tr bgcolor="#C0C0C0">
+		<td nowrap><b>Work Request ID</b></td>
+		<td><b>Work Request Name</b></td>
+		<td><b>MO</b></td>
+		<td><b>UAT</b></td>
+		<td><b>UAT2</b></td>
+		<td><b>Prod</b></td>
+		<td><b>Prod Override</b></td>
+		<td><b>Config</b></td>
+		<td><b>Training</b></td>
+    </tr>
+
+<tr><td colspan='9'>No records returned.</td></tr>
+
+</table>
+<p><br></p>
+
+<h2>CO Associated Adjustment Request</h2>
+<table border="1" cellspacing="0" cellpadding="3" width="100%">
+    <tr bgcolor="#C0C0C0">
+		<td nowrap><b>Request ID</b></td>
+		<td><b>Short Name</b></td>
+		<td nowrap><b>Current Status</b></td>
+		<td nowrap><b>Status Date</b></td>
+		<td><b>AI #</b></td>
+    </tr>
+
+<tr><td colspan='5'>No records returned.</td></tr>
+
+</table>
+<p><br></p>
+
+
+
+
+<h2>CO Associated UAT Test Cases</h2>
+<table border="1" cellspacing="0" cellpadding="3" width="100%">
+    <tr bgcolor="#C0C0C0">
+		<td><b>ID</b></td>
+		<td><b>Description</b></td>
+    </tr>
+
+<tr><td colspan='2'>No records returned.</td></tr>
+
+</table>
+<p><br></p>
+
+
+<h2>CO Associated Findings</h2>
+<table border="1" cellspacing="0" cellpadding="3" width="100%">
+    <tr bgcolor="#C0C0C0">
+		<td><b>Finding ID</b></td>
+		<td><b>Description</b></td>
+		<td><b>Status</b></td>
+    </tr>
+
+<tr><td colspan='3'>No records returned.</td></tr>
+
+</table>
+<p><br></p>
+
+    
+
+
+
+<h2><a>Supplemental Documentation</a></h2>
+	<h3>1. &nbsp;Links to Code Change Diff Tool. &nbsp;These links provide downloads of zipped code change files.</h3>
+	<a href="http://198.132.184.88/CodeChanges/GenerateCodeChanges.aspx?CO=GA38572&Server=GA&Output=ZIP">Vault Code-Diff</a> 
+	&nbsp;
+	<a href="http://198.132.184.88/CodeChanges/GenerateCodeChanges.aspx?CO=GA38572&Server=GA&Output=IP">List of Vault Files</a> 
+	&nbsp;
+	<a href="javascript:PublishVaultFiles();" style="display:none" id="publishButton">(publish)</a>
+
+<script>
+
+document.body.attachEvent("onkeydown", function()
+{
+    if (event.keyCode == 27)
+	publishButton.style.display = "inline";
+});
+
+function PublishVaultFiles()
+{
+    var yesNo = confirm("Do you want to create a code-diff.zip and implementationPlan.htm for this CO?  Only click Yes if you're the SE and you have checked in your source-code.");
+    if (yesNo)
+    {
+	    var rsp = Ajax("<request coNum='38572' ba='' se='Tran, Linh' techLead='' coDesc='CSR 1621 - SUR - Outpatient Case Types - 2022 HCPCS updates' subsystem=\"SUR\" from='7/1/2021' to='3/2/2022' />");
+	    if (rsp == "none")
+    	    alert("There were no vault file revisions for GA38572");
+	    else if (rsp == "okay")
+    	    alert("Done (refresh page to see files).");
+    	else
+    	    alert("error: "+rsp);
+    }
+}
+
+function Ajax( xmlText )
+{
+    var url = "/Georgia/vault_co_ftp.aspx";
+
+    var xmlHttp = new ActiveXObject("Msxml2.XMLHTTP");
+    xmlHttp.open("POST", url, false);
+
+    try {           xmlHttp.send( xmlText ); }
+    catch (e) {     alert(e.message); }
+
+    return xmlHttp.responseText;
+}
+
+</script>
+
+	<p></p>
+
+	<h3>2. &nbsp;User Documents</h3>
+	<h3>User Documents</h3>  
+
+
+
+<p></p>
+
+
+
+<table border=0 width="100%">
+<tr><td nowrap></td></tr>
+
+<tr>
+<td nowrap>
+2/23/2022 &nbsp&nbsp <a href="../SUR/Change Orders/38572/2022  hcpcs sur impacts.xlsx">2022  HCPCS SUR Impacts</a>
+&nbsp;&nbsp;</td>
+<td width="100%">
+<em>(12KB XLSX File)</em>
+</td>
+</tr>
+
+<tr>
+<td nowrap>
+2/28/2022 &nbsp&nbsp <a href="../SUR/Change Orders/38572/re 20220216 dchgainwell sur weekly operations meeting agenda.msg">RE 20220216 DCHGainwell SUR Weekly Operations Meeting Agenda</a>
+&nbsp;&nbsp;</td>
+<td width="100%">
+<em>(270KB MSG File)</em>
+</td>
+</tr>
+
+<table border=0 width="100%">
+<tr>
+<td nowrap>
+
+<a><B> Construction Walkthrough </B></a>
+
+</td>
+</tr>
+
+
+<tr>
+<td nowrap>
+3/2/2022 &nbsp&nbsp <a href="../SUR/Change Orders/38572/Construction Walkthrough/co 38572 construction walkthrough.doc">CO 38572 Construction Walkthrough</a>
+&nbsp;&nbsp;</td>
+<td width="100%">
+<em>(44KB DOC File)</em>
+</td>
+</tr>
+
+<tr>
+<td nowrap>
+3/2/2022 &nbsp&nbsp <a href="../SUR/Change Orders/38572/Construction Walkthrough/co 38572 implementation plan.doc">CO 38572 Implementation Plan</a>
+&nbsp;&nbsp;</td>
+<td width="100%">
+<em>(54KB DOC File)</em>
+</td>
+</tr>
+
+<tr>
+<td nowrap>
+3/2/2022 &nbsp&nbsp <a href="../SUR/Change Orders/38572/Construction Walkthrough/co 38572 proof_of_scan_libgroupgencomn.html">CO 38572 Proof_of_Scan_libgroupgencomn</a>
+&nbsp;&nbsp;</td>
+<td width="100%">
+<em>(10KB HTML Document)</em>
+</td>
+</tr>
+
+<tr>
+<td nowrap>
+3/2/2022 &nbsp&nbsp <a href="../SUR/Change Orders/38572/Construction Walkthrough/co 38572 unit testing document.doc">CO 38572 Unit Testing Document</a>
+&nbsp;&nbsp;</td>
+<td width="100%">
+<em>(500KB DOC File)</em>
+</td>
+</tr>
+
+<tr>
+<td nowrap>
+3/2/2022 &nbsp&nbsp <a href="../SUR/Change Orders/38572/Construction Walkthrough/outpatient_case_type_a.c.diff.htm">outpatient_case_type_A.c.diff</a>
+&nbsp;&nbsp;</td>
+<td width="100%">
+<em>(403KB HTML Document)</em>
+</td>
+</tr>
+
+<tr>
+<td nowrap>
+3/2/2022 &nbsp&nbsp <a href="../SUR/Change Orders/38572/Construction Walkthrough/profile_case_type.rpt.diff.htm">profile_case_type.rpt.diff</a>
+&nbsp;&nbsp;</td>
+<td width="100%">
+<em>(3816KB HTML Document)</em>
+</td>
+</tr>
+
+<table border=0 width="100%">
+
+<p>&nbsp;</p>
+</table>
+
+</table>
+
+
+	<h3>3. &nbsp;UAT2 Documents</h3>
+
+<br><font size=2>No additional information found for this Change Order. </font><br> 
+<table border=0 width="100%">
+
+<p>&nbsp;</p>
+</table>
+
+
+<p>&nbsp;</p>
+</table>
+
+
+	<h3>4. &nbsp;UAT Documents</h3>
+
+<br><font size=2>No additional information found for this Change Order. </font><br> 
+<table border=0 width="100%">
+
+<p>&nbsp;</p>
+</table>
+
+
+<p>&nbsp;</p>
+</table>
+
+
+	<h3>5. &nbsp;VCTL or Vault Evidence Documents</h3>
+
+<br><font size=2>No additional information found for this Change Order. </font><br> 
+<table border=0 width="100%">
+
+<p>&nbsp;</p>
+</table>
+
+
+<p>&nbsp;</p>
+</table>
+
+
+&nbsp;
+
+</body>
+</html>
